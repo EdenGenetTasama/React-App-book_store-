@@ -1,4 +1,6 @@
 import React from "react";
+import Janer from "./janerComponent/janer";
+
 
 export default class  BookCom extends React.Component{
 constructor(props){
@@ -38,6 +40,7 @@ render(){
             <input type="text" onChange={this.InputOnChange}/>
             <button type="button"  onClick={this.GetWritterName} >click to change component</button>
             <h1>{this.state.inputValue}</h1>
+            <Janer/>
         </div>
     )
 }
