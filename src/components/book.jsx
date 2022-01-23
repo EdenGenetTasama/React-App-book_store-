@@ -1,6 +1,6 @@
 import React from "react";
 import Janer from "./janerComponent/janer";
-
+import Country from "./CountryComponent/country";
 
 export default class  BookCom extends React.Component{
 constructor(props){
@@ -41,6 +41,7 @@ render(){
             <button type="button"  onClick={this.GetWritterName} >click to change component</button>
             <h1>{this.state.inputValue}</h1>
             <Janer/>
+            <Country/>
         </div>
     )
 }
